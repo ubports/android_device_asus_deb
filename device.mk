@@ -24,7 +24,7 @@ PRODUCT_COPY_FILES := \
     device/asus/deb/init.deb.rc:root/init.flo.rc
 
 PROJECT_COPY_FILES +=  \
-    device/asus/deb/ubuntu/etc/ubuntu-touch-session.d/deb.conf:system//ubuntu/etc/ubuntu-touch-session.d/deb.conf \
+    device/asus/deb/ubuntu/etc/ubuntu-touch-session.d/deb.conf:system/ubuntu/etc/ubuntu-touch-session.d/deb.conf \
     device/asus/deb/ubuntu/usr/lib/lxc-android-config/70-deb.rules:system/ubuntu/usr/lib/lxc-android-config/70-deb.rules
 
 PRODUCT_COPY_FILES += \
